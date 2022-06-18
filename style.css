@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background: #1F2937;
+}
+.header{
+    background:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    color:#F9FAF8;
+    font-weight:900;
+    font-size:24px;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+  }
+
+ul {
+    list-style-type: none;
+    display:flex;
+    padding:0;
+    margin:0;
+    gap:16px;
+    font-size:18px;
+  }
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
