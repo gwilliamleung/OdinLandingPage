@@ -1,18 +1,19 @@
 body {
-    margin: 0;
-    background: #1F2937;
+  padding: 0;
+  margin: 0;
+  background: #1F2937;
 }
-.header{
-    background:white;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
+
 .logo {
     color:#F9FAF8;
-    font-weight:900;
     font-size:24px;
 }
+
 a {
     text-decoration: none;
     color: #E5E7EB;
@@ -33,3 +34,33 @@ ul {
     gap: 16px;
   }
 
+.subtext{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:  32px;
+}
+
+.subleft,.subright{
+  flex: 1 1 0;
+}
+
+.maintext{
+  font-size:48px;
+  font-weight:bolder;
+  color:#F9FAF8;
+  
+}
+.secondarytext{
+  font-size:18px;
+  color:#E5E7EB;
+}
+.signupbutton{
+  background-color:#3882F6;
+  color:#F9FAF8;
+}
+
+
+
+
+/*  background-color:#E5E7EB;
