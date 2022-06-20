@@ -1,66 +1,108 @@
 body {
-  padding: 0;
-  margin: 0;
-  background: #1F2937;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 8px;
-}
-
-.logo {
-    color:#F9FAF8;
-    font-size:24px;
-}
-
-a {
-    text-decoration: none;
-    color: #E5E7EB;
-  }
-
-ul {
-    list-style-type: none;
-    display:flex;
-    padding:0;
-    margin:0;
-    gap:16px;
-    font-size:18px;
-  }
-
-.left, .right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-
-.subtext{
+  margin:0;
   display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:  32px;
+  font-family: Roboto, sans-serif;
+  flex-direction: column;
 }
 
-.subleft,.subright{
-  flex: 1 1 0;
+.firstsection{
+  background-color:#1F2937;
+}
+
+.header{
+  display:flex;
+  align-items: center;
+  margin:10px;
+  justify-content: space-between;
+  font-size:18px;
+}
+
+.logo{
+  color: #F9FAF8;
+  font-size:24px;
+  font-weight: bold;
+}
+
+.links{
+  display:flex;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  gap:10px;
+}
+
+.links a {
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.body{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:100px;
+  margin-left:400px;
+  margin-right:400px;
+  gap:200px;
 }
 
 .maintext{
-  font-size:48px;
-  font-weight:bolder;
-  color:#F9FAF8;
+  align-self: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  padding: 0;
+  margin: 0;
+}
+
+.secondarytext{
+  color: #E5E7EB;
+}
+
+.signupbutton {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  font-weight: 900;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.kaiju{
+  height:250px;
+}
+
+.secondsection{
+  margin:100px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-top: -50px;
+  text-align: center;
+
+}
+
+.nftcontainers{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.image{
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  border: solid #3882F6;
+}
+.collection{
+  text-align:center;
   
 }
-.secondarytext{
-  font-size:18px;
-  color:#E5E7EB;
-}
-.signupbutton{
-  background-color:#3882F6;
-  color:#F9FAF8;
-}
-
-
-
-
-/*  background-color:#E5E7EB;
