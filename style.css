@@ -107,9 +107,14 @@ h2 {
   
 }
 
-h3{
+.quote{
   text-align:center;
-  padding:300px;
+  color:#1F2937;
+  font-style:italic;
+  font-size: 36px;
+  padding-left: 400px;
+  padding-right:400px;
+  margin: 100px;
 }
 
 .thirdsection{
