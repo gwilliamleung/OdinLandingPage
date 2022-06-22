@@ -70,9 +70,13 @@ h1 {
   border-radius: 5px;
   border: 0;
 }
+.signupbutton:hover{
+  color: #1F2937;;
+  cursor:pointer;
+}
 
 .kaiju{
-  height:250px;
+  height:300px;
 }
 
 .secondsection{
@@ -104,19 +108,87 @@ h2 {
 }
 .collection{
   text-align:center;
-  
+  font-weight:bold;
 }
 
-.quote{
-  text-align:center;
-  color:#1F2937;
-  font-style:italic;
-  font-size: 36px;
-  padding-left: 400px;
-  padding-right:400px;
-  margin: 100px;
-}
+.collection a { 
+  text-decoration: none; 
+  color:#1F2937
+ }
 
 .thirdsection{
   background-color:#E5E7EB;
+}
+
+.quotecontainer{
+  display:flex;
+  flex-direction: column;
+  margin: 100px;
+  padding-left:300px;
+  padding-right:300px;
+}
+
+.quote{
+  font-size:36px;
+  font-style:italic;
+  color:#1F2937
+}
+
+.quoter{
+  align-self:flex-end;
+  color:#1F2937;
+  font-weight: bold;
+  font-size:24px;
+}
+
+.fourthsection{
+  margin: 100px;
+}
+
+.calltoaction{
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.callheader{
+  color: #E5E7EB;
+  padding: 0px;
+  margin: 0px;
+  font-weight: bold;
+}
+.callsub{
+  color:#E5E7EB;
+  padding:0px;
+  margin:0px;
+  font-weight:100
+}
+
+.signupbutton.second{
+  border: 2px solid #E5E7EB;
+  
+}
+
+.signupbutton.second:hover{
+  color: #1F2937;
+  cursor:pointer;
+}
+
+.links .signupbutton.second { 
+  text-decoration: none;
+}
+
+.footer{
+  background-color:#1F2937;
+}
+.footermessage{
+  text-align: center;
+  padding:36px;
+  color: #F9FAF8;
+  font-weight: 100;
 }
