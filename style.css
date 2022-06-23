@@ -136,9 +136,13 @@ h2 {
 
 .quoter{
   align-self:flex-end;
-  color:#1F2937;
   font-weight: bold;
   font-size:24px;
+}
+
+.quoter a{
+  text-decoration: none;
+  color:#1F2937;
 }
 
 .fourthsection{
@@ -169,26 +173,34 @@ h2 {
   font-weight:100
 }
 
-.signupbutton.second{
-  border: 2px solid #E5E7EB;
-  
+.buttonsecond{
+  border: 2px solid #E5E7EB;  
+  text-decoration: none;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  font-weight: 900;
+  padding: 5px 20px;
+  border-radius: 5px;
 }
 
-.signupbutton.second:hover{
+.buttonsecond:hover{
   color: #1F2937;
   cursor:pointer;
 }
 
-.links .signupbutton.second { 
-  text-decoration: none;
-}
 
 .footer{
   background-color:#1F2937;
+
 }
 .footermessage{
   text-align: center;
   padding:36px;
   color: #F9FAF8;
   font-weight: 100;
+}
+
+.footermessage a{
+  text-decoration: none; 
+  color:#E5E7EB
 }
